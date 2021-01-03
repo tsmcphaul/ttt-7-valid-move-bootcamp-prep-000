@@ -15,7 +15,7 @@ def position_taken?(board, index)
     return true
 end
 end
-if position_taken?(board, index) == false && between?(num) == true
+if position_taken?(board, index) == false && between?(index) == true
   return true
 else
   return false || nil
