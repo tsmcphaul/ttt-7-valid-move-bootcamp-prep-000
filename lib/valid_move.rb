@@ -22,7 +22,7 @@ if position_taken?(board, index) == false && between?(num) == true
 else
   return false || nil
 end
-end
+
 
 
 
