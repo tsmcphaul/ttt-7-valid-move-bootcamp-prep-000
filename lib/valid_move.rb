@@ -18,7 +18,12 @@ end
 end
 
 if position_taken?(board, index) == false && between?(num) == false
-  return
+  return true
+else
+  return false
+end
+end
+
 
 
 
