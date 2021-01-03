@@ -10,6 +10,7 @@ end
 end
 
 def between?(num)
+  if num 
 
 
 
